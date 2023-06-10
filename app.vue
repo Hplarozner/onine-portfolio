@@ -232,8 +232,13 @@
         <div>
           <h2 class="text-4xl lg:text-5xl font-bold leading-tight">Let's talk about everything!</h2>
           <div class="text-gray-700 mt-8">
-            Hate forms? Send us an <span class="underline">email</span> instead.
+            Hate forms? Send me an <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=ralphrenzobabali@example.com" target="_blank"
+              class="underline underline-offset-4 text-blue-800">email</a> instead.
           </div>
+
+
+
         </div>
         <div class="mt-8 text-center">
 
@@ -257,7 +262,7 @@
         </div>
         <div class="mt-8">
           <button
-            class="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
+            class="uppercase text-sm font-bold tracking-wide bg-yellow-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
             Send Message
           </button>
         </div>
