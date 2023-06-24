@@ -234,7 +234,7 @@
           <div class="text-gray-700 mt-8">
             Hate forms? Send me an <a
               href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=ralphrenzobabali@example.com" target="_blank"
-              class="underline underline-offset-4 text-blue-800">email</a> instead.
+              class="underline underline-offset-4 text-blue-800">Email</a> instead.
           </div>
 
 
