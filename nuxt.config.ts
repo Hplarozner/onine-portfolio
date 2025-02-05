@@ -1,27 +1,13 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    app : {
-/*     
-    pageTransition : {
-      name : "page"
-    },
-
-    layoutTransition : {
-      name : "rotate",
-    },
-*/
-    head : {
-      title : "Ralph's Portfolio",
-       link: [{ rel: "icon", type: "jpg", href: "/profile.jpg" }],
-     
-    }
+  css: ['vuetify/lib/styles/main.css'],
+  build: {
+    transpile: ['vuetify'],
   },
-   css: ['~/assets/css/main.css'],
-  devtools: { enabled: true },
-     postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
+  vite: {
+    define: {
+      'process.env.DEBUG': false,
     },
   },
-})
+  plugins: ['~/plugins/vuetify.ts'],
+  compatibilityDate: '2025-01-28',
+});
